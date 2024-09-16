@@ -6,20 +6,21 @@
     <title>Brot - Persönliche Webseite</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            background-color: #f8f8f8;
+            font-family: Dancing Script, Regular 400;
+            color: #113;
+            background-color: #f7fbf5;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #ff4c4c;
+            background-color: #4d5645;
             color: white;
             padding: 20px;
             text-align: center;
         }
         main {
             padding: 20px;
+            padding-bottom: 60px; /* Platz für Footer lassen */
         }
         .container {
             max-width: 800px;
@@ -29,7 +30,7 @@
             margin: 0;
         }
         .contact-form {
-            background-color: #ffffff;
+            background-color: #4d5645;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -50,7 +51,7 @@
             border-radius: 4px;
         }
         .contact-form button {
-            background-color: #ff4c4c;
+            background-color: #f5ff00;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -59,13 +60,20 @@
             font-size: 16px;
         }
         footer {
-            background-color: #ff4c4c;
+            background-color: #4d5645;
             color: white;
             text-align: center;
             padding: 10px;
             position: fixed;
             width: 100%;
             bottom: 0;
+            left: 0;
+        }
+        .bread-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
         }
     </style>
 </head>
@@ -78,10 +86,13 @@
             <h2>Über Brot</h2>
             <p>Brot ist ein grundlegendes Nahrungsmittel, das in vielen Kulturen weltweit geschätzt wird. Es gibt viele verschiedene Arten von Brot, einschließlich Baguettes, Sauerteig und Vollkornbrot, jedes mit seinem eigenen einzigartigen Geschmack und seiner eigenen Textur.</p>
             
+            <!-- Brot-Bild einfügen -->
+            <img src="https://img.chefkoch-cdn.de/rezepte/3748011569691684/bilder/1409317/crop-642x428/friss-dich-dumm-brot.jpg" alt="Brot" class="bread-image">
+
             <h2>Kontakt</h2>
             <div class="contact-form">
-                <h2>Kontaktformular</h2>
-                <form action="mailto:deine-email@beispiel.com" method="post" enctype="text/plain">
+                <h2>Bitte schreib nur wenn du kein Hurensohn bist</h2>
+                <form action="mailto:christopher.tonhaeuser@gmail.com" method="post" enctype="text/plain">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
 
@@ -91,13 +102,22 @@
                     <label for="message">Nachricht:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
 
-                    <button type="submit">Absenden</button>
+                    <button type="submit">Absenden du hurensohn</button>
+                     <button type="submit">keiner mag dich</button>
+
+                    
+                     
+			<h3>sonst kommt er zu dir und zeigt dir
+			wo der Hammer hängt</h3>
+
+                    <img src="https://i.pinimg.com/originals/a4/df/99/a4df9994bda7f1f368283c5ac1f66f5c.gif"
+
                 </form>
             </div>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 Brot-Webseite. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2024 Brot-Webseite. Alle Rechte vorbehalten, nachbehalten u. sonstiges lmao.</p>
     </footer>
 </body>
 </html>
